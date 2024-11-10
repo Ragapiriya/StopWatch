@@ -3,20 +3,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,400..900;1,300..900&display=swap');
 
 body{
-    background:linear-gradient(270deg,rgb(239, 167, 167) 0%, rgb(215, 123, 191) 90%);
+    background:linear-gradient(270deg,rgb(0, 73, 88) 0%, rgb(164, 180, 190) 90%);
     /* font-family: 'Courier New', Courier, monospace; */
     font-family: "Rubik";
+    /* background-image: url(images/catss.jpg); */
+
 
 }
 .stopwatch{
     width: 90%;
-    max-width: 690px;
-    background-image: url(images/backgroundd.jpg);
+    max-width: 750px;
+    /* background-image: url(images/hehehe.jpg); */
+    background-image: url(images/jj.jpg);
+
     background-size: cover;
     background-position: center;
     text-align: center;
     padding: 50px 0;
     margin:200px auto 0;
+    border-radius: 50px;
 
 }
 
@@ -40,4 +45,7 @@ body{
 .buttons img:nth-child(2)
 {
     width:85px ;
+}
+#displayTime{
+    color: rgb(11, 11, 11);
 }
